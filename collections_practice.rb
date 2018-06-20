@@ -37,6 +37,7 @@ def find_a(array)
 end
 
 def sum_array(array)
-  sum = array.join("+")
-sum.to_i
+  array.inject do |sum,element|
+    sum + element
+  end
 end
