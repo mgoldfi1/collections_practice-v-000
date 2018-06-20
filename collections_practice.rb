@@ -38,5 +38,5 @@ end
 
 def sum_array(array)
   sum = array.join("+")
-sum
+sum.to_i
 end
