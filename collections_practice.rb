@@ -35,4 +35,7 @@ def find_a(array)
     a.start_with?("a")
   end
 end
-  
+
+def sum_array(array)
+  sum = array.join("+")
+sum
