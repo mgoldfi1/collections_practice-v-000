@@ -39,3 +39,4 @@ end
 def sum_array(array)
   sum = array.join("+")
 sum
+end
